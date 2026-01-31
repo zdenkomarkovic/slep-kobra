@@ -93,10 +93,14 @@ export default function Header() {
         <Link href="/" className="">
           <Image
             src={Logo}
-            alt="Slep Služba Kobra Beograd"
+            alt="Šlep Služba Kobra Beograd"
             width={50}
             height={50}
             className="rounded-full"
+            style={{
+              filter:
+                "brightness(0) saturate(100%) invert(52%) sepia(98%) saturate(1506%) hue-rotate(354deg) brightness(102%) contrast(102%)",
+            }}
           />
         </Link>
         <DesktopNav />
