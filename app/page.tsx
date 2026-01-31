@@ -15,6 +15,8 @@ export default function Home() {
             fill
             className="object-cover"
             priority
+            quality={75}
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
@@ -247,6 +249,9 @@ export default function Home() {
                       alt={location.name}
                       fill
                       className="object-cover"
+                      quality={75}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      loading="lazy"
                     />
                   </div>
                   <div className="p-4 md:p-6 lg:p-8">
