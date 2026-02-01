@@ -45,11 +45,12 @@ export const metadata: Metadata = {
     "vuča vozila Beograd",
   ],
   alternates: {
-    canonical: "https://www.slepsluzba-kobra.rs/",
+    canonical: "https://www.slepsluzbakobra.com/",
   },
   openGraph: {
     title: "Slep Služba Kobra Beograd | Pouzdano Slepanje Vozila 24/7",
     description: "Profesionalna slep služba na svim lokacijama u Beogradu. Dostupni 24/7. Pozovite 062 814 2131.",
+    url: "https://www.slepsluzbakobra.com/",
     type: "website",
     locale: "sr_RS",
   },

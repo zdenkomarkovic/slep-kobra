@@ -4,9 +4,9 @@ export default function JsonLd() {
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.slepsluzba-kobra.rs/#business",
+        "@id": "https://www.slepsluzbakobra.com/#business",
         "name": "Slep Služba Kobra",
-        "image": "https://www.slepsluzba-kobra.rs/android-chrome-512x512.png",
+        "image": "https://www.slepsluzbakobra.com/android-chrome-512x512.png",
         "telephone": "062-814-2131",
         "priceRange": "$$",
         "address": {
@@ -89,12 +89,12 @@ export default function JsonLd() {
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.slepsluzba-kobra.rs/#website",
-        "url": "https://www.slepsluzba-kobra.rs/",
+        "@id": "https://www.slepsluzbakobra.com/#website",
+        "url": "https://www.slepsluzbakobra.com/",
         "name": "Slep Služba Kobra Beograd",
         "description": "Profesionalna slep služba u Beogradu dostupna 24/7",
         "publisher": {
-          "@id": "https://www.slepsluzba-kobra.rs/#business"
+          "@id": "https://www.slepsluzbakobra.com/#business"
         },
         "inLanguage": "sr"
       }

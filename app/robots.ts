@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://www.slepsluzba-kobra.rs/sitemap.xml',
+    sitemap: 'https://www.slepsluzbakobra.com/sitemap.xml',
   }
 }
