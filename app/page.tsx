@@ -106,7 +106,7 @@ export default function Home() {
       </section>
 
       {/* Cenovnik Section */}
-      <section id="cenovnik" className="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-white">
+      {/* <section id="cenovnik" className="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 text-gray-900">
@@ -117,7 +117,7 @@ export default function Home() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Cena 1 - Šlepanje u Beogradu */}
+          
               <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-orange-500 hover:shadow-2xl transition-shadow">
                 <div className="text-center">
                   <div className="inline-block p-4 bg-orange-100 rounded-full mb-4">
@@ -150,7 +150,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Cena 2 - Šlep van Beograda */}
+            
               <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-blue-500 hover:shadow-2xl transition-shadow">
                 <div className="text-center">
                   <div className="inline-block p-4 bg-blue-100 rounded-full mb-4">
@@ -201,7 +201,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-gradient-to-r from-orange-500 to-orange-600 text-white">
