@@ -37,7 +37,7 @@ export default function GoogleTag() {
   return (
     <>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GT-TNPQJNZR"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-17660879589"
         strategy="afterInteractive"
       />
       <Script id="google-tag-init" strategy="afterInteractive">
@@ -45,7 +45,6 @@ export default function GoogleTag() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'GT-TNPQJNZR');
           gtag('config', 'AW-17660879589');
         `}
       </Script>
