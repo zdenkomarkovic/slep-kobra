@@ -1,5 +1,6 @@
 import ButtonToTop from "@/components/ButtonToTop";
 import Footer from "@/components/Footer";
+import GoogleTag from "@/components/GoogleTag";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import { Toaster } from "@/components/ui/sonner";
@@ -69,6 +70,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-muted-foreground bg-muted  text-base md:text-xl`}
       >
+        <GoogleTag />
         <Header />
         {children}
         <ButtonToTop />
