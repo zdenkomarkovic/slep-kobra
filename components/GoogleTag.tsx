@@ -22,7 +22,7 @@ export default function GoogleTag() {
           window.location.href = url;
         };
         window.gtag("event", "conversion", {
-          send_to: "AW-17660879589/C_MrCPX-rPYbEOXFruVB",
+          send_to: "AW-17660879589/_q0SCKSEsPYbEOXFruVB",
           value: 1.0,
           currency: "RSD",
           event_callback: callback,
